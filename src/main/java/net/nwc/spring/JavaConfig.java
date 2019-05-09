@@ -13,6 +13,5 @@ public class JavaConfig {
 	@Profile("prod")
 	public SpringJavaBean springJavaBean() {
 		return new SpringJavaBean();
-
 	}
 }
